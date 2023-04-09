@@ -14,7 +14,7 @@ CORS configuration for cross-origin requests
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/express-sequelize-auth.git
+git clone https://github.com/akramshekh/express-sequelize-auth.git
 
 2. Install dependencies:
 npm install

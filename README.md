@@ -1,6 +1,6 @@
 # Express-Sequelize-Auth
 
-Express-Sequelize-Auth is a customizable and secure Express.js template for starting new web applications with authentication features. This project uses the Sequelize ORM for managing a PostgreSQL database, bcrypt for password hashing, and JWT tokens for user authentication.
+Express-Sequelize-Auth is a customizable and secure Express.js template for starting new web applications with authentication features. This project uses the Sequelize ORM for managing a database, bcrypt for password hashing, express validator, and JWT tokens for user authentication.
 
 ## Features
 

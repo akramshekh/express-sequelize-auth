@@ -21,10 +21,7 @@ npm install
 
 3. Set up environment variables:
 
-Create a .env file and add the following variables:
-
-DATABASE_URL=your-database-url
-JWT_SECRET=your-secret-key
+Rename .env-example to .env and add your environment variables.
 
 4. Run the application:
 npm start

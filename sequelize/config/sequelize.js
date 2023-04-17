@@ -1,5 +1,7 @@
 const { Sequelize } = require("sequelize");
 
+// https://auth-db878.hstgr.io/index.php?db=u399823435_uc_chat
+
 const sequelize = new Sequelize(
     process.env.DEVELOPMENT_DB_NAME,
     process.env.DEVELOPMENT_DB_USERNAME,

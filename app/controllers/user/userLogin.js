@@ -12,17 +12,20 @@ const userLogin = async (req, res) => {
                 email
             },
             attributes: {
-                exclude: ['password']
+                exclude: ['password', 'token']
             },
             raw: true
         })
 
-        const token = jwt.sign(userData, process.env.JWT_SECRET_KEY, { expiresIn: '1h' });
+        const token = jwt.sign(userData, process.env.JWT_SECRET_KEY, { expiresIn: '24h' });
 
         return res.status(200).send({
             success: true,
             message: "createLogin",
-            token
+            data: {
+                ...userData,
+                token
+            }
         })
 
     } catch (error) {
